@@ -1,7 +1,14 @@
+#Pour installer les librarie ouvrez un terminal ou sur virtual studio code
+#et faites ctrl+ù tapez ensuite les commandes suivantes:
+#pip install requests
+#json et os sont déjà inclus dans python.
+#pour lancer le script faite la commande : 
+#python script.py
+#/!\ il est important que le fichier script.py sois dans un dossier pour
+#plus de simplicité.
 import requests
 import os
 import json
-import os
 
 # Supprimer le fichier data.json s'il existe
 if os.path.exists('data.json'):
