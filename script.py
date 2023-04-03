@@ -1,13 +1,19 @@
-#Pour installer les librarie ouvrez un terminal ou sur virtual studio code
-#et faites ctrl+ù tapez ensuite les commandes suivantes:
-#pip install requests
-#json et os sont déjà inclus dans python.
-#pour lancer le script faite la commande : 
-#python script.py
-#/!\ il est important que le fichier script.py sois dans un dossier pour
-#plus de simplicité.
-#/!\ tout les fichier sont supprimé si vous relancer le script.
+#Pour installer les bibliothèques, 
+#ouvrez un terminal ou Virtual Studio Code et faites Ctrl + ù, 
+#puis tapez les commandes suivantes :
 
+#pip install python
+
+#pip install requests
+
+#Les bibliothèques json et os sont déjà incluses dans Python.
+#Pour lancer le script, exécutez la commande suivante :
+
+#python script.py
+
+#/!\ Il est important que le fichier script.py soit dans un dossier pour plus de simplicité.
+
+#/!\ Tous les fichiers sont supprimés si vous relancez le script.
 
 import requests
 import os
