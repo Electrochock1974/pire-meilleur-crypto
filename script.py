@@ -7,6 +7,8 @@
 #/!\ il est important que le fichier script.py sois dans un dossier pour
 #plus de simplicité.
 #/!\ tout les fichier sont supprimé si vous relancer le script.
+
+
 import requests
 import os
 import json
