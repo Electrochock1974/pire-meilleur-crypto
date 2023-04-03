@@ -27,7 +27,10 @@ if os.path.exists("top_losers"):
 
 
 # Obtenir les données JSON de l'API CoinMarketCap
-url = 'https://api.coinmarketcap.com/data-api/v3/cryptocurrency/spotlight?dataType=2&limit=30&rankRange=100&timeframe=7d'
+# A modifier : changer l'option de durée (1h, 24h, 7d, 30d) selon vos besoins
+timeframe = '7d'
+
+url = f'https://api.coinmarketcap.com/data-api/v3/cryptocurrency/spotlight?dataType=2&limit=30&rankRange=100&timeframe={timeframe}'
 response = requests.get(url)
 data = response.json()
 
